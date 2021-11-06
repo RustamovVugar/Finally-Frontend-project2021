@@ -685,3 +685,76 @@ header .logo-img:hover {
   background-color: red;
   cursor: pointer;
 }
+
+#benefits {
+  padding-bottom: 100px;
+  background-color: #fafafa;
+  padding-top: 100px;
+}
+
+#benefits .content {
+  font-family: Lora,serif;
+  text-align: center;
+}
+
+#benefits .content h4 {
+  font-size: 40px;
+}
+
+#benefits .content p {
+  padding-top: 20px;
+  color: #fafafa;
+  font-size: 20px;
+}
+
+#benefits .item {
+  padding-top: 50px;
+}
+
+#benefits .item .card-img-top {
+  height: 100%;
+  width: 100%;
+}
+
+#benefits .item .card-img-top:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+
+#benefits .item .card {
+  background: none;
+  border: none;
+}
+
+#benefits .item .card .image {
+  position: relative;
+}
+
+#benefits .item .card .image-text {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+#benefits .item .card .card-body {
+  background-color: #fafafa;
+  padding-top: 70px;
+  text-align: center;
+}
+
+#benefits .item .card .card-body h4 {
+  color: #3d3c3c;
+}
+
+#benefits .item .card .card-body h4:hover {
+  cursor: pointer;
+}
+
+#benefits .item .card .card-body p {
+  color: gray;
+}
