@@ -620,3 +620,68 @@ header .logo-img:hover {
 #flower-experts .experts .experts_image {
   margin-right: 100px;
 }
+
+#join-bunch {
+  padding-bottom: 200px;
+  background: none;
+  background-image: url("/assets/images/join-bunch/img.jpg");
+  background-position: center top !important;
+  background-attachment: fixed;
+  background-size: cover;
+  position: static;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 150px;
+}
+
+#join-bunch .item1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+#join-bunch .item2 {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+#join-bunch .item2 input {
+  height: 60px;
+  width: 400px;
+  padding-left: 10px;
+  border: none;
+}
+
+#join-bunch .item2 #button {
+  height: 60px;
+  width: 200px;
+  padding-left: 10px;
+  border: none;
+  background-color: firebrick;
+  color: white;
+}
+
+#join-bunch .item2 #button:hover {
+  background-color: red;
+  cursor: pointer;
+}

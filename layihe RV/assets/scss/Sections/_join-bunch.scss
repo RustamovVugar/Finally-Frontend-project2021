@@ -1,0 +1,50 @@
+@import"./flower-experts";
+
+
+#join-bunch{
+    padding-bottom: 200px;
+    background: none;
+    background-image: url("/assets/images/join-bunch/img.jpg");
+    background-position: center top!important;
+    background-attachment: fixed;
+    background-size: cover;
+    position: static;
+    background-repeat: no-repeat;
+    color:white;
+    padding-top: 150px;
+    .item1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        
+    }
+    .item2{
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        input{
+            height:60px;
+            width:400px;
+            padding-left: 10px;
+            border:none;
+        }
+        #button{
+            height:60px;
+            width:200px;
+            padding-left: 10px;
+            border:none;
+            background-color:firebrick ;
+            color:white;
+            &:hover{
+                background-color: red;
+                cursor: pointer;
+            }
+        }
+      
+    }
+}
