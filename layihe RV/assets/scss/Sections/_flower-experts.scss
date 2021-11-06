@@ -1,0 +1,29 @@
+@import"./video";
+
+#flower-experts{
+padding-bottom: 100px;
+    padding-top: 100px;
+    .explaination{
+        text-align: center;
+       p{
+           padding-top: 30px;
+           color:#7e7777 ; 
+           font-size: 20px;
+           line-height: 30px;
+       } 
+      
+    }
+    .experts{
+        padding-top: 50px;
+        .image-text{
+            text-align: center;
+            padding-top: 40px;
+            p{
+                color:#4b4949 ;
+            }
+        }
+        .experts_image{
+            margin-right: 100px;
+        }
+    }
+}
