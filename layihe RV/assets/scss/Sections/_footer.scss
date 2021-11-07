@@ -1,0 +1,47 @@
+@import "./benefits";
+footer {
+    background-color: hsla(331, 44%, 88%, 0.87);
+
+    #information {
+        padding-top: 100px;
+        border-bottom: 0.01px solid #817b7b;
+
+        a {
+            color: #8b8585e1;
+            text-decoration: none;
+            line-height: 40px;
+            font-size: 15px;
+
+            &:hover {
+                color: red;
+            }
+        }
+    }
+
+    #addition {
+        position: relative;
+        color: #a09696;
+ text-align: center;
+ padding-top: 30px;
+ a{
+    text-decoration: none;
+    color: #4b4949;
+    margin-right: 30px;
+    &:hover{
+        color:red;
+    }
+ }
+        
+    }
+
+    .social-media {
+        a {
+            text-decoration: none;
+            color: #4b4949;
+            margin-right: 30px;
+            &:hover{
+                color:rgb(230, 5, 5);
+            }
+        }
+    }
+}
