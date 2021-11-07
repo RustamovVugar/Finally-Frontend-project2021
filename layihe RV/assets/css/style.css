@@ -759,6 +759,68 @@ header .logo-img:hover {
   color: gray;
 }
 
+#slider2 {
+  padding-bottom: 100px;
+  background-color: rgba(235, 235, 235, 0.945);
+  padding: 50px;
+  text-align: center;
+}
+
+#slider2 .image {
+  text-align: center;
+}
+
+#slider2 body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+#slider2 .slideshow-container {
+  position: relative;
+}
+
+#slider2 .mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+#slider2 .prev, #slider2 .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  color: #928787;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#slider2 .next {
+  right: 50px;
+  border-radius: 3px 0 0 3px;
+  margin-left: 300px;
+}
+
+#slider2 .prev {
+  left: 50px;
+}
+
+#slider2 .prev:hover, #slider2 .next:hover {
+  color: rgba(26, 23, 23, 0.8);
+}
+
+#slider2 p {
+  font-style: italic;
+  color: rgba(27, 23, 23, 0.8);
+  padding: 50px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
 footer {
   background-color: rgba(238, 211, 224, 0.87);
 }
